@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Authorization received</title><style>body{font-family:Arial,sans-serif;max-width:560px;margin:60px auto;padding:0 20px;color:#222}code{display:block;word-break:break-all;background:#f3f3f3;padding:12px;border-radius:8px}</style></head>
+<body><h2>Authorization received</h2><p id="msg">Copy the code below and paste it to Wingman in chat. Then you can close this tab.</p><code id="code">(no code found in this URL)</code>
+<script>var p=new URLSearchParams(location.search);var c=p.get('code'),e=p.get('error');document.getElementById('code').textContent=c||e||'(no code found in this URL)';if(e)document.getElementById('msg').textContent='Authorization failed: '+e;</script>
+</body></html>
